@@ -1,0 +1,22 @@
+.Board {
+    background: red;
+    display: grid;
+    grid-gap: 0.5em;
+
+    grid-template-areas: "a a a"
+                          "a a a"
+                          "a a a";
+    width: 14.5em;
+    height: 13em;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-color: black;
+    border-width: 3em;
+    border-style: solid;
+}
+
+.Square {
+    background: black;
+    width: 4.5em;
+    height: 4em;
+}
